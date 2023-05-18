@@ -1,0 +1,66 @@
+	\begin{table}[!ht]
+				\centering
+				\caption{{\textbf{Simulation A:}} Probability of detecting clusters $C_1, C_2, C_3$ and $C_4$ by the {\bf {\it BioNet}} algorithm applied iteratively. Networks were simulated by the Barab\'{a}si-Albert preferential attachment model. $c$ denotes cluster size in terms of the number of nodes and $p_{edge}$ denotes the proportion of edges in the network. We record a cluster as being 'detected' when all its constituent nodes are identified in the active subnetwork and none of the nodes external to the cluster are included. }
+				%	\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.		
+					\label{sm23} 
+					\begin{tabular}{|c|r|r|r|r|r|r|r|r|}
+						\hline
+						$(c,p_{edge})$\footnote{$(c,p_{edge})^{\ast}$ where c: cluster size, $p_{edge}$: proportion of edges}&
+						50, $0.3$& 50, $0.1$&  20, $0.3$&  20, $0.1$\\
+						\hline
+						\hline
+						\multicolumn{5}{|c|}
+						{1st iteration} \\
+						\hline
+						Pr($C_1$) &0.53&0.56& 0.47 &0.47\\
+						\hline 
+						Pr($C_2$)&0& 0& 0&0 \\
+						\hline 
+						Pr($C_3$)&0.47&0.44&  0.53 &0.53\\
+						\hline 
+						Pr($C_4$)&0& 0& 0 &0\\
+						\hline 	
+						\hline
+						\multicolumn{5}{|c|}
+						{2nd iteration} \\
+						\hline
+						Pr($C_1$) &0.47&0.44&  0.53 &0.53\\
+						\hline 
+						Pr($C_2$)&0 & 0 & 0   &0    \\
+						\hline 
+						Pr($C_3$)&0.53 & 0.56 & 0.47 & 0.47 \\ 
+						\hline 
+						Pr($C_4$)  &0& 0& 0   &0  \\
+						\hline 
+						\hline
+						\multicolumn{5}{|c|}
+						{3rd iteration} \\
+						\hline
+						Pr($C_1$) &0 &0 & 0 &0 \\
+						\hline 
+						Pr($C_2$)&0.47& 0.38 & 0.54 &0.46  \\
+						\hline 
+						Pr($C_3$)&0& 0&0  &0 \\
+						\hline 
+						Pr($C_4$) &0.53 & 0.62 &0.46 & 0.54  \\
+						\hline 
+						\hline
+						\multicolumn{5}{|c|}
+						{4th iteration} \\
+						\hline
+						Pr($C_1$)&0 &0 & 0  &0  \\
+						\hline 
+						Pr($C_2$) &0.53 & 0.62 & 0.46 & 0.54 \\
+						\hline 
+						Pr($C_3$) &0 & 0 & 0   &0  \\
+						\hline 
+						Pr($C_4$)&0.47 & 0.38 & 0.54  &0.46  \\
+						\hline 
+						\hline
+						
+						
+					\end{tabular}
+					%	\end{adjustwidth}	
+				
+			\end{table}
+			
