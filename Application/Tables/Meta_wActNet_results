@@ -1,0 +1,58 @@
+\begin{table}[!hbt]
+				
+				\begin{center}
+					\caption{{\bf{HAPO metabolomics:}} Metabolites in optimized subnetwork identified by {\it wActive} algorithm and P values, estimate coefficients and $95\%$ Confidence Interval in the linear model with maternal BMI adjusted for age.}
+					
+					\label{ra21} 	
+					
+					\centering	
+					
+					\resizebox{17 cm}{11cm}{
+						\begin{tabular}{|l|r|r|r|l|}
+							\hline
+							Metabolites name & Estimate coefficient  & P value & $95\%$ Confidence Interval \\ 
+							\hline
+							AC C2 & 0.81 & 0.002  & (0.30,1.32) \\   
+							AC C3 & 0.50 & 0.06 &  (-0.02,1.02) \\ 
+							AC C4/Ci4 & 0.62 & 0.02 &  (0.11,1.14) \\ 
+							AC C18:2-OH & 0.59& 0.02&  (0.08,1.11) \\ 
+							AC C4-OH & 1.12 & 0.00002 &  (0.61,1.63) \\  
+							AC C5 & 0.92 & 0.0005 &  (0.41,1.43) \\ 
+							AC C8:1 & 1.34& 0.0000003 &  (0.84,1.84)\\
+							AC C10:3 & 0.54 & 0.04 & (0.03,1.06) \\ 
+							AC C12:1 & 0.68 & 0.01 & (0.16,1.19)  \\ 
+							AC C14:1 & 0.60 & 0.02 &  (0.09,1.12)\\ 
+							AC C16:1 & 1.07& 0.00005 &  (0.56,1.57) \\ 
+							AC C18:1 & 1.42 & 0.00000004 & (0.92,1.92) \\ 
+							AC C16:1-OH/C14:1-DC & 0.67 & 0.01 &  (0.15,1.18)\\ 
+							AC C16-OH/C14-DC & 1.0 & 0.0001& (0.49,1.51) \\ 
+							Arginine & 1.33 & 0.0000003 & (0.83,1.83) \\ 
+							Aspartic acid & 0.56 & 0.03& (0.05,1.08) \\ 
+							Ethanolamine & -0.48 & 0.07& (-0.99,0.04)  \\ 
+							Glutamic acid & 0.9 & 0.0006 & (0.39,1.41)\\ 
+							Leucine/Isoleucine & 0.61 & 0.02& (0.09,1.12)   \\ 
+							Methionine & -0.53 & 0.046& (-1.04,-0.01) \\ 
+							Phenylalanine & 1.42 & 0.00000005 & (0.92,1.92)  \\ 
+							Proline & 0.65 & 0.01 & (0.14,1.16)\\ 
+							Serine & 0.65 & 0.01 & (0.13,1.16)  \\ 
+							Valine & 0.82 & 0.002 & (0.31,1.33)\\ 
+							alpha-Tocopherol & -0.79 & 0.003 & (-1.31,-0.28) \\ 
+							Methyl palmitate & -0.54 & 0.04 & (-1.06,-0.03) \\ 
+							Methyl stearate & -0.6 & 0.02 & (-1.11,-0.08) \\ 
+							Erythronic acid/Threonic acid & -0.77 & 0.004 & (-1.28,-0.25) \\ 
+							Glycerol 1-phosphate & -0.61 & 0.02& (-1.13,-0.10) \\ 
+							Glyceric acid & -1.11 & 0.00002 & (-1.61,-0.60)  \\ 
+							Phosphoric acid & 0.79 & 0.003 &  (0.28,1.30) \\ 
+							Triglycerides & 0.93 & 0.0004 &  (0.42,1.45)  \\ 
+							3-Hydroxybutyrate & 1.41 & 0.00000009 & (0.90,1.91) \\ 
+							Glycine & -0.14& 0.58 &  (-0.66,0.37)  \\ 
+							NEFA & 0.53 & 0.045 & (0.01,1.04)  \\ 
+							Palmitoleic acid & 0.76& 0.004 &  (0.25,1.27)\\ 
+							Urea & -0.69 & 0.009 & (-1.20,-0.17)\\ 
+							beta-hydroxybutyrate & 0.95 & 0.0003 & (0.44,1.46)  \\ 
+							\hline
+					\end{tabular}
+					}
+					
+				\end{center}
+			\end{table}
