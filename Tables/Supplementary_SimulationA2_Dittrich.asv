@@ -1,0 +1,132 @@
+	\begin{table}[!ht]
+		
+		\centering
+		
+		\caption{\textbf{Simulation A: Probability of detecting clusters $C_1, C_2, C_3$ and $C_4$ by the {\it BioNet} algorithm applied iteratively. Networks were simulated by the Erd\"{o}s-R\'{e}nyi random graph model. $c$ denotes cluster size in terms of the number of nodes and $p_{edge}$ denotes proportion of edges in the network. } }
+		
+		%      \begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.               
+			
+			\label{sm22} 
+			\resizebox{12 cm}{8cm}{
+				\begin{tabular}{|c|r|r|r|r|}
+					
+					\hline
+					
+					$(c,p)$\footnote{$(c,p_{edge})^{\ast}$ where c: cluster size, $p_{edge}$: proportion of edges}&
+					
+					50, $0.3$& 50, $0.1$&  20, $0.3$&  20, $0.1$\\
+					
+					\hline
+					
+					\hline
+					
+					\multicolumn{5}{|c|} 
+					{1st iteration} \\
+					
+					\hline
+					
+					Pr($C_1$) &0.51&0.48& 0.5 &0.47\\
+					
+					\hline 
+					
+					Pr($C_2$)&0& 0& 0&0 \\
+					
+					\hline 
+					
+					Pr($C_3$)&0.49&0.52&  0.5 &0.53\\
+					
+					\hline 
+					
+					Pr($C_4$)&0& 0& 0 &0\\
+					
+					\hline          
+					
+					\hline
+					
+					
+					\multicolumn{5}{|c|} 
+					{2nd iteration} \\
+					
+					\hline
+					
+					Pr($C_1$) &0.49&0.52&  0.5 &0.53\\
+					
+					\hline 
+					
+					Pr($C_2$)&0 & 0 & 0   &0    \\
+					
+					\hline 
+					
+					Pr($C_3$)&0.51& 0.48 & 0.5 & 0.47 \\ 
+					
+					\hline 
+					
+					Pr($C_4$)  &0& 0& 0   &0  \\
+					
+					\hline 
+					
+					\hline
+					
+					
+					\multicolumn{5}{|c|} 
+					{3rd iteration} \\
+					
+					\hline
+					
+					Pr($C_1$) &0 &0 & 0 &0 \\
+					
+					\hline 
+					
+					Pr($C_2$)&0.55& 0.48 & 0.48 &0.51  \\
+					
+					\hline 
+					
+					Pr($C_3$)&0& 0&0  &0 \\
+					
+					\hline 
+					
+					Pr($C_4$) &0.45 & 0.52 &0.52 & 0.49  \\
+					
+					\hline 
+					
+					\hline
+					
+					
+					\multicolumn{5}{|c|} 
+					{4th iteration} \\
+					
+					\hline
+					
+					Pr($C_1$)&0 &0 & 0  &0  \\
+					
+					\hline 
+					
+					Pr($C_2$) &0.45 & 0.52 & 0.52 & 0.49 \\
+					
+					\hline 
+					
+					Pr($C_3$) &0 & 0 & 0   &0  \\
+					
+					\hline 
+					
+					Pr($C_4$)&0.55 & 0.48 & 0.48  &0.51  \\
+					
+					\hline 
+					
+					\hline
+					
+					
+					
+					
+					
+			\end{tabular}}
+			
+			%      \end{adjustwidth}
+		
+		
+		
+	\end{table}
+	
+	
+	
+	
