@@ -1,0 +1,103 @@
+	\begin{table}[!hbt]
+				
+				\begin{center}
+					\caption{{\bf{HAPO metabolomics:}} Optimized subnetworks enriched for associations with maternal BMI.  Optimized subnetworks were identified by the {\it wActNet},{\it COSINE} and {\it BioNet} algorithms.} 
+					
+					\label{ra11} 	
+					
+					\centering	
+					
+					\resizebox{16 cm}{11cm}{
+						\begin{tabular}{|r|r|r|r|r|r|}
+							\hline
+							
+							Metabolite&	{\it wActNet} &{\it BioNet}&  {\it BioNet}&{\it COSINE}
+							&Node Score\\
+							\hline
+							Threshold &NA&0.4&  0.6&NA& \\
+							\hline
+							AC C2&	x&x&x&x&2.92	\\
+							AC C3&	x&x &&&0.28\\	
+							AC C4/Ci4&	x&x&&&1.21\\	
+							AC C4:2	&x&	x& 	& & -0.97\\	
+							AC C3&	x& x&&&0.28\\	
+							AC C4/Ci4&	x&x&&&1.21\\	
+							AC C4:2	&&x	& 	&  &-0.97\\	
+							AC C4-OH&x&x&&x&6.67	\\	
+							AC C5&	x&x&&&4.09\\	
+							AC C8&&&&x&-2.62	\\
+							AC C8:1&x&x&x&x&10.01	\\
+							AC C8:1-DC&&&&x&-2.60	\\
+							
+							AC C10	&	&x& &x&-1.86	\\		
+							AC C10:1		&	&x& &x&-1.18	\\		
+							AC C10:2	&	&x& &&-0.78	\\	
+							AC C10:3&x&x&x&&0.59	\\
+							AC C10-OH/C8-DC &&&&x&-2.06\\
+							
+							AC C12&	&&&x&-2.56\\
+							AC C12:1&	x&x&x&x&1.68	\\
+							AC C12-OH/C10-DC &&&&x&-2.29\\
+							AC C14&	&&&x&-1.94\\
+							
+							AC C14:1&	x&x&x&&1.04\\
+							AC C14-OH&&&&x&-2.44\\
+							AC C16:1&	x&x&x&x&5.97\\	
+							AC C18:1&	x&x&x&x&11.51\\
+							AC C16:1-OH/C14:1-DC&x&x& &x&1.59\\	
+							AC C16-OH/C14-DC&	x&x& &x&5.12 \\	
+							AC C18OH/C16-DC&	&& &x&-0.81\\	
+							AC C20-OH/C18-DC&	&x& &x&  -0.81\\		
+							
+							\\
+							\\
+							Alanine& & & &x&-1.94\\
+							Arginine	&x	& &	 &x&9.90	\\
+							Asparagine/Aspartic acid&	&x & &x&15.00\\
+							Aspartic acid	&x&	&&x&0.74\\	
+							
+							Citric acid/isocitric acid&&&&x&-2.70\\
+							Erythronic acid/Threonic acid &&&&&1.77\\
+							Ethanolamine&x	& &&x&0.12\\
+							
+							
+							
+							Glutamic acid	&x &&&x&3.98\\	
+							Glutamine/Glutamic acid	& &&&x&12.96\\									
+							Leucine/Isoleucine&x && &x&1.06\\		
+							Lysine &&&&x&-1.88\\				
+							Methionine& x&&&x&0.46\\	
+							Myoinositol&&&&x&2.98\\
+							Phenylalanine&x &&&x&11.39\\	
+							Proline&x&& &x&1.44\\	
+							Serine&x& &&x&1.43\\	
+							Valine&x&& &x&3.03\\	
+							\\	
+							\\
+							alpha-Tocopherol&x&&&&2.71\\	
+							Methyl palmitate&x&&&&0.58\\							
+							Methyl stearate&x&&&&1.02\\								
+							Methyl linoleate&x&&&&3.31\\	
+							Erythronic acid/Threonic acid&x&&&&2.51\\														
+							Glycerol 1-phosphate&x&&&&1.12\\	
+							Glyceric acid&x&&&x&6.56\\				
+							Phosphoric acid&x&&&&2.78\\										
+							
+							Triglycerides&x&&&&4.27\\	
+							\\
+							\\
+							2-Hydroxybutyric acid&&&&x&-2.53\\
+							3-Hydroxybutyrate&x&x&x&x&10.99\\
+							Glycerol		&& x&&&14.72	\\	
+							Glycine &x&&&x&-1.56\\
+							Non-esterified fatty acid (NEFA)&x&x&&x&0.48\\		
+							Palmitic acid&&&&x&-2.40\\
+							Palmitoleic acid&	x&x &x&x&2.45	\\		
+							Urea& x& & &&1.74\\
+							$\beta$-hydroxybutyrate 	&x&  &	&x &4.50	\\
+							
+							\hline			
+					\end{tabular}}
+					
+				\end{center}
+			\end{table}
