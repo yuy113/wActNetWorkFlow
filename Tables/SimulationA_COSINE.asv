@@ -1,0 +1,81 @@
+\begin{table}[!hbt]
+				
+				\caption{{\bf {Simulation A:}} Probability of detecting clusters $C_1, C_2, C_3$ and $C_4$ by the {\bf {\it COSINE}} algorithm applied iteratively. Networks were simulated by the Barab\'{a}si-Albert preferential attachment model. $c$ denotes cluster size in terms of the number of nodes and $p_{edge}$ denotes the proportion of edges in the network.  Since none of the clusters were detected intact, this table shows the proportion of times {\it any} constituent nodes of a cluster was included in the active subnetwork. } 	
+				\label{sm34} 	
+				
+				\centering	
+				
+				\begin{tabular}{|c|r|r|r|r|r|r|r|r|}
+					\hline
+					$(c,p_{edge})^{\ast}$\footnote{$(c,p_{edge})^{\ast}$ where c: cluster size, $p_{edge}$: proportion of edges}&
+					50, $0.3$& 50, $0.1$&  20, $0.3$&  20, $0.1$\\
+					\hline
+					\hline
+					\multicolumn{5}{|c|}
+					{1st iteration} \\
+					\hline
+					Subnetwork Size&50&50& 23  &24  \\
+					\hline 
+					Pr($C_1$)&0.68&0.68& 0.57& 0.54\\
+					\hline 
+					Pr($C_2$)&0.14& 0.16&0.17& 0.21\\
+					\hline 
+					Pr($C_3$)&0.16&0.14& 0.06 & 0.13\\
+					\hline 
+					Pr($C_4$)&0.02& 0.02& 0.09  & 0.08\\
+					\hline 
+					Pr(Noisy Nodes)&0& 0& 0.04& 0.04\\
+					\hline 
+					\hline
+					\multicolumn{5}{|c|}
+					{2nd iteration} \\
+					\hline
+					Subnetwork Size&52&56 & 22& 23 \\
+					\hline 
+					Pr($C_1$)&0.13&0.13& 0.14 & 0.17\\
+					\hline 
+					Pr($C_2$)&0.38 & 0.36& 0.32 & 0.26 \\
+					\hline 
+					Pr($C_3$)&0.37&0.20& 0.13 & 0.3\\
+					\hline 
+					Pr($C_4$)&0.06& 0.05 & 0.14 & 0.13\\
+					\hline 
+					Pr(Noisy Nodes)&0.08& 0.12& 0.09 & 0.13\\
+					\hline 
+					\hline
+					\multicolumn{5}{|c|}
+					{3rd iteration} \\
+					\hline
+					Subnetwork Size&55&56& 21  &21  \\
+					\hline 
+					Pr($C_1$)&0.09&0.07& 0.1 & 0.1\\
+					\hline 
+					Pr($C_2$)&0.31& 0.3& 0.24 & 0.24 \\
+					\hline 
+					Pr($C_3$)&0.33&0.3& 0.19 & 0.19\\
+					\hline 
+					Pr($C_4$)&0.2& 0.14& 0.24  & 0.21\\
+					\hline 
+					Pr(Noisy Nodes)&0.07& 0.18& 0.19  & 0.24\\
+					\hline 
+					\hline
+					\multicolumn{5}{|c|}
+					{4th iteration} \\
+					\hline
+					Subnetwork Size&58 &60 & 20   &21   \\
+					\hline 
+					Pr($C_1$)&0.09&0.08& 0.05& 0.05\\
+					\hline 
+					Pr($C_2$)&0.09 & 0.07 & 0.1& 0.1\\
+					\hline 
+					Pr($C_3$)&0.09&0.08& 0.15& 0.1\\
+					\hline 
+					Pr($C_4$)&0.43& 0.4& 0.2& 0.19\\
+					\hline 
+					Pr(Noisy Nodes)&0.31&0.37& 0.55 & 0.57\\
+					\hline 
+					\hline
+					
+					
+				\end{tabular}
+			\end{table}
